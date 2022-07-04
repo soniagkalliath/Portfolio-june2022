@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px 2px gray;
+}
+/* pseudo class - hover
+
+selector:pseudo-class{
+    property:value;
+}
+*/
+.links:hover{
+font-size: 30px;
+text-decoration: underline;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#welcome{
+    background: linear-gradient(aquamarine ,aqua);
+    color: blue;
+}
+
+.profile{
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Dancing Script', "cursive";
+    line-height: 1.2;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Lobster', 'cursive';
+}
+#bio{
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+#writings a:hover{
+    color: crimson;
+}
+#contact{
+    background-color: firebrick;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
+.contact_1 h3{
+    display: inline;
+}
